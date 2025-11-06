@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Recipes of the Rim</name>
+  <author>chrisb</author>
+  <supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+  </supportedVersions>
+  <loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+		<li>chrisb.craftablegravcoremechhips</li>
+	</loadAfter>
+  <modIconPath IgnoreIfNoMatchingField="True"></modIconPath>
+  <packageId>chrisb.recipesoftherim</packageId>
+  <description>An XML-only mod that adds unlockable research and crafting for various items.</description>
+</ModMetaData>

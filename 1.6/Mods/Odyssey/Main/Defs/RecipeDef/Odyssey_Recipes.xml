@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Sentience catalyst -->
+	<RecipeDef>
+		<defName>chrisb_Craft_SentienceCatalyst</defName>
+		<label>make sentience catalyst</label>
+		<description>Make a Sentience Catalyst.</description>
+		<displayPriority>194</displayPriority>
+		<workAmount>36000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GravlitePanel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<SentienceCatalyst>1</SentienceCatalyst>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>chrisb_Research_SentienceCatalyst</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

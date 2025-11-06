@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- allowing inheritance for techprints if Royalty is loaded, otherwise blank def -->
+	<ResearchProjectDef Abstract="True" Name="chrisb_TechprintCategory1"></ResearchProjectDef>
+	<ResearchProjectDef Abstract="True" Name="chrisb_TechprintCategory2"></ResearchProjectDef>
+	<ResearchProjectDef Abstract="True" Name="chrisb_TechprintCategory3"></ResearchProjectDef>
+	
+<!-- Research Synthread recipe -->
+  <ResearchProjectDef>
+    <defName>chrisb_Research_Synthread</defName>
+    <label>Synthread</label>
+    <description>Enables creation of synthread.</description>
+    <baseCost>2700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BiofuelRefining</li>
+			<li>ComplexClothing</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+	
+<!-- Research Hyperweave recipe -->
+  <ResearchProjectDef ParentName="chrisb_TechprintCategory2">
+    <defName>chrisb_Research_Hyperweave</defName>
+    <label>Hyperweave</label>
+    <description>Enables creation of hyperweave.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_Synthread</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Plasteel recipe -->
+  <ResearchProjectDef>
+    <defName>chrisb_Research_Plasteel</defName>
+    <label>Plasteel</label>
+    <description>Enables Plasteel creation.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Neutroamine recipe -->
+	<ResearchProjectDef>
+    <defName>chrisb_Research_Neutroamine</defName>
+    <label>Neutroamine</label>
+    <description>Enables synthesis of neutroamine.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>MedicineProduction</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Glitterworld Medicine recipe -->
+	<ResearchProjectDef>
+    <defName>chrisb_Research_Glitterworld_Medicine</defName>
+    <label>Glitterworld medicine</label>
+    <description>Enables synthesis of glitterworld medicine.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_Neutroamine</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Luciferium recipe -->
+	<ResearchProjectDef>
+    <defName>chrisb_Research_Luciferium</defName>
+    <label>Luciferium</label>
+    <description>Enables synthesis of luciferium.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_Glitterworld_Medicine</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Healer Mech Serum recipe -->
+	<ResearchProjectDef ParentName="chrisb_TechprintCategory2">
+    <defName>chrisb_Research_MechSerumHealer</defName>
+    <label>Healer mech serum</label>
+    <description>Enables synthesis of healer mech serum.</description>
+    <baseCost>5750</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_Luciferium</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Resurrector Mech Serum recipe -->
+	<ResearchProjectDef ParentName="chrisb_TechprintCategory3">
+    <defName>chrisb_Research_MechSerumResurrector</defName>
+    <label>Resurrector mech serum</label>
+    <description>Enables synthesis of resurrector mech serum.</description>
+    <baseCost>7500</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_MechSerumHealer</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Antigrain shell recipe -->
+	<ResearchProjectDef ParentName="chrisb_TechprintCategory1">
+    <defName>chrisb_Research_Shell_AntigrainWarhead</defName>
+    <label>Antigrain warhead</label>
+    <description>Enables assembly of antigrain warheads.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+			<li>Mortars</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.40</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Psychic lances, animal pulser and soother recipes -->
+	<ResearchProjectDef ParentName="chrisb_TechprintCategory1">
+    <defName>chrisb_Research_PsychicArtefacts</defName>
+    <label>Psychic artifacts</label>
+    <description>Enables fabrication of psychic artifacts.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>1.40</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research AI Persona core recipe -->
+	<ResearchProjectDef>
+    <defName>chrisb_Research_AIPersonaCore</defName>
+    <label>AI persona core</label>
+    <description>Enables fabrication of a persona core.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>ShipComputerCore</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Techprof Subpersona core recipe -->
+  <ResearchProjectDef ParentName="chrisb_TechprintCategory3">
+    <defName>chrisb_Research_TechprofSubpersonaCore</defName>
+    <label>Techprof subpersona core</label>
+    <description>Enables fabrication of a subpersona core.</description>
+    <baseCost>10000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_AIPersonaCore</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

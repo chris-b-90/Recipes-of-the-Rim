@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Shuttle engine -->
+	<RecipeDef>
+		<defName>chrisb_Craft_ShuttleEngine</defName>
+		<label>make shuttle engine</label>
+		<description>Make a Shuttle Engine.</description>
+		<displayPriority>537</displayPriority>
+		<workAmount>72000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>VVE_GarageBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>135</count>
+    </li>
+		<li>
+      <filter>
+        <thingDefs>
+          <li>VVE_EngineBlock</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>ComponentSpacer</li>
+        </thingDefs>
+      </filter>
+      <count>5</count>
+    </li>
+		</ingredients>
+		<products>
+			<ShuttleEngine>1</ShuttleEngine>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisites>
+			<li>Shuttles</li>
+			<li>VVE_ComplexVehicles</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+</Defs>

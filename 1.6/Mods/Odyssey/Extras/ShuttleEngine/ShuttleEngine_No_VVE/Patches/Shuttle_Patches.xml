@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/description</xpath>
+    <value>
+      <description>Build a shuttle which can be used for long distance travel or to reach orbit. This requires a shuttle engine which can be fabricated at a fabrication bench, bought from orbital traders, salvaged from other shuttles, or obtained through quests.</description>
+    </value>
+  </Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="ShuttleEngine"]/description</xpath>
+    <value>
+      <description>An engine capable of powering a small shuttle. Shuttle engines can usually only be manufactured in large specialized factories, making them rare on the rim. It may be possible to replicate this process at a fabrication bench.</description>
+    </value>
+  </Operation>
+</Patch>

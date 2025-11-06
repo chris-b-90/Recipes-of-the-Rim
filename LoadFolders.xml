@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>
+	<v1.5>
+	
+		<li>/</li>
+		<li>1.5</li>
+
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.5/Mods/Royalty/Main</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.5/Mods/Biotech</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">1.5/Mods/Anomaly</li>
+
+		<li IfModNotActive="vanillaexpanded.vpsycastse" IfModActive="Ludeon.RimWorld.Royalty">1.5/Mods/Royalty/Extras/EltexGear</li>
+
+	</v1.5>
+
+  <v1.6>
+
+		<li>/</li>
+		<li>1.6</li>
+
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.6/Mods/Royalty/Main</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.6/Mods/Biotech</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">1.6/Mods/Anomaly</li>
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods/Odyssey/Main</li>
+
+		<li IfModNotActive="vanillaexpanded.vpsycastse" IfModActive="Ludeon.RimWorld.Royalty">1.6/Mods/Royalty/Extras/EltexGear</li>
+
+		<li IfModActiveAll="chrisb.craftablegravcoremechhips,Ludeon.RimWorld.Odyssey">1.6/Mods/Odyssey/Extras/Gravcore/Gravcore_CGMC/Gravcore</li>
+		<li IfModNotActive="chrisb.craftablegravcoremechhips" IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods/Odyssey/Extras/Gravcore/Gravcore_No_CGMC</li>
+		<li IfModActiveAll="chrisb.craftablegravcoremechhips,Ludeon.RimWorld.Odyssey,Ludeon.RimWorld.Biotech">1.6/Mods/Odyssey/Extras/Gravcore/Gravcore_CGMC/Biotech</li>
+
+		<li IfModActiveAll="oskarpotocki.vanillavehiclesexpanded,Ludeon.RimWorld.Odyssey">1.6/Mods/Odyssey/Extras/ShuttleEngine/ShuttleEngine_VVE</li>
+		<li IfModNotActive="oskarpotocki.vanillavehiclesexpanded" IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods/Odyssey/Extras/ShuttleEngine/ShuttleEngine_No_VVE</li>
+
+  </v1.6>
+</loadFolders>

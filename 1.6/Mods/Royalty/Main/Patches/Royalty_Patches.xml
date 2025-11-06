@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ResearchProjectDef[@Name="chrisb_TechprintCategory1"]</xpath>
+		<value>
+			<techprintCount>1</techprintCount>
+			<techprintCommonality>3</techprintCommonality>
+			<heldByFactionCategoryTags>
+				<li>Empire</li>
+				<li>Outlander</li>
+			</heldByFactionCategoryTags>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ResearchProjectDef[@Name="chrisb_TechprintCategory2"]</xpath>
+		<value>
+			<techprintCount>1</techprintCount>
+			<techprintCommonality>2</techprintCommonality>
+			<techprintMarketValue>3000</techprintMarketValue>
+			<heldByFactionCategoryTags>
+				<li>Empire</li>
+				<li>Outlander</li>
+			</heldByFactionCategoryTags>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ResearchProjectDef[@Name="chrisb_TechprintCategory3"]</xpath>
+		<value>
+			<techprintCount>1</techprintCount>
+			<techprintCommonality>1</techprintCommonality>
+			<techprintMarketValue>4000</techprintMarketValue>
+			<heldByFactionCategoryTags>
+				<li>Empire</li>
+			</heldByFactionCategoryTags>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Research Shield core recipe -->
+  <ResearchProjectDef ParentName="chrisb_TechprintCategory1">
+    <defName>chrisb_Research_BroadshieldCore</defName>
+    <label>Shield core</label>
+    <description>Enables a jury-rigged process of making shield cores.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>1.40</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Psylink neuroformer recipe -->
+  <ResearchProjectDef ParentName="chrisb_TechprintCategory3">
+    <defName>chrisb_Research_Psylink</defName>
+    <label>Psylink neuroformer</label>
+    <description>Enables creation of psylink neuroformers.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Empire weapons recipes -->
+  <ResearchProjectDef>
+    <defName>chrisb_Research_Empire_Weapons</defName>
+    <label>Empire weapons</label>
+    <description>Enables creation of empire melee weapons.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
+  </ResearchProjectDef>
+
+<!-- Research Persona weapons recipes -->
+  <ResearchProjectDef ParentName="chrisb_TechprintCategory3">
+    <defName>chrisb_Research_Persona_Weapons</defName>
+    <label>Persona weapons</label>
+    <description>Enables creation of persona melee weapons.</description>
+    <baseCost>7000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_Empire_Weapons</li>
+			<li>chrisb_Research_AIPersonaCore</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

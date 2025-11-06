@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Research Shard -->
+	<ResearchProjectDef>
+    <defName>chrisb_Research_Shard</defName>
+    <label>Anomalous shard</label>
+    <description>Enables fabrication of shards.</description>
+    <baseCost>7500</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>4.20</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

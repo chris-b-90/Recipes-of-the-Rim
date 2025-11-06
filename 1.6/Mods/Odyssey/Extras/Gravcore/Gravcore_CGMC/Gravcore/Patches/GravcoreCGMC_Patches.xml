@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_MechhiveFabrication"]</xpath>
+    <value>
+			<tab>chrisb_Universal_Crafting</tab>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_MechhiveFabrication"]/researchViewX</xpath>
+    <value>
+			<researchViewX>1.00</researchViewX>
+    </value>
+  </Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_MechhiveFabrication"]/researchViewY</xpath>
+    <value>
+			<researchViewY>4.90</researchViewY>
+    </value>
+  </Operation>
+</Patch>

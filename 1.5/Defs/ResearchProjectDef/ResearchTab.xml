@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchTabDef>
+		<defName>chrisb_Universal_Crafting</defName>
+		<label>Recipes of the Rim</label>
+		<generalTitle>Recipes of the Rim</generalTitle>
+		<generalDescription>Unlock rare and exotic items for general crafting.</generalDescription>
+	</ResearchTabDef>
+</Defs>

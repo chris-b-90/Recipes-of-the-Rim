@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_SignalChip"]</xpath>
+    <value>
+			<tab>chrisb_Universal_Crafting</tab>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_SignalChip"]/researchViewX</xpath>
+    <value>
+			<researchViewX>2.00</researchViewX>
+    </value>
+  </Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_SignalChip"]/researchViewY</xpath>
+    <value>
+			<researchViewY>4.90</researchViewY>
+    </value>
+  </Operation>
+
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_PowerfocusChip"]</xpath>
+    <value>
+			<tab>chrisb_Universal_Crafting</tab>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_PowerfocusChip"]/researchViewX</xpath>
+    <value>
+			<researchViewX>3.00</researchViewX>
+    </value>
+  </Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_PowerfocusChip"]/researchViewY</xpath>
+    <value>
+			<researchViewY>4.90</researchViewY>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_NanostructuringChip"]</xpath>
+    <value>
+			<tab>chrisb_Universal_Crafting</tab>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_NanostructuringChip"]/researchViewX</xpath>
+    <value>
+			<researchViewX>4.00</researchViewX>
+    </value>
+  </Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="chrisb_Research_NanostructuringChip"]/researchViewY</xpath>
+    <value>
+			<researchViewY>4.90</researchViewY>
+    </value>
+  </Operation>
+</Patch>

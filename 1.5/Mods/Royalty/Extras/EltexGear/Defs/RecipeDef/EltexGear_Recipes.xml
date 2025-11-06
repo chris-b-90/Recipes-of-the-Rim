@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Psyfocus Robe -->
+	<RecipeDef>
+		<defName>chrisb_Craft_Apparel_PsyfocusRobe</defName>
+		<label>make psyfocus robe</label>
+		<description>Make a Psyfocus Robe.</description>
+		<displayPriority>246</displayPriority>
+		<workAmount>45000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychicAmplifier</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Apparel_PsyfocusRobe>1</Apparel_PsyfocusRobe>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>chrisb_Research_Eltex_Gear</researchPrerequisite>
+	</RecipeDef>
+
+<!-- Psyfocus Vest -->
+	<RecipeDef>
+		<defName>chrisb_Craft_Apparel_PsyfocusVest</defName>
+		<label>make psyfocus vest</label>
+		<description>Make a Psyfocus Vest.</description>
+		<displayPriority>247</displayPriority>
+		<workAmount>36000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychicAmplifier</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Apparel_PsyfocusVest>1</Apparel_PsyfocusVest>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>chrisb_Research_Eltex_Gear</researchPrerequisite>
+	</RecipeDef>
+
+<!-- Psyfocus Shirt -->
+	<RecipeDef>
+		<defName>chrisb_Craft_Apparel_PsyfocusShirt</defName>
+		<label>make psyfocus shirt</label>
+		<description>Make a Psyfocus Shirt.</description>
+		<displayPriority>248</displayPriority>
+		<workAmount>24000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychicAmplifier</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Apparel_PsyfocusShirt>1</Apparel_PsyfocusShirt>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>chrisb_Research_Eltex_Gear</researchPrerequisite>
+	</RecipeDef>
+
+<!-- Eltex Skullcap -->
+	<RecipeDef>
+		<defName>chrisb_Craft_Apparel_EltexSkullcap</defName>
+		<label>make eltex skullcap</label>
+		<description>Make an Eltex Skullcap.</description>
+		<displayPriority>249</displayPriority>
+		<workAmount>15000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychicAmplifier</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<Apparel_EltexSkullcap>1</Apparel_EltexSkullcap>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>chrisb_Research_Eltex_Gear</researchPrerequisite>
+	</RecipeDef>
+
+<!-- Psyfocus Helmet -->
+	<RecipeDef>
+		<defName>chrisb_Craft_Apparel_PsyfocusHelmet</defName>
+		<label>make psyfocus helmet</label>
+		<description>Make a Psyfocus Helmet.</description>
+		<displayPriority>250</displayPriority>
+		<workAmount>45000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychicAmplifier</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Apparel_PsyfocusHelmet>1</Apparel_PsyfocusHelmet>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>chrisb_Research_Eltex_Gear</researchPrerequisite>
+	</RecipeDef>
+	
+<!-- Psyfocus Staff -->
+	<RecipeDef>
+		<defName>chrisb_Craft_MeleeWeapon_PsyfocusStaff</defName>
+		<label>make psyfocus staff</label>
+		<description>Make a Psyfocus Staff.</description>
+		<displayPriority>231</displayPriority>
+		<workAmount>45000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychicAmplifier</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<MeleeWeapon_PsyfocusStaff>1</MeleeWeapon_PsyfocusStaff>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>chrisb_Research_Eltex_Gear</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>
