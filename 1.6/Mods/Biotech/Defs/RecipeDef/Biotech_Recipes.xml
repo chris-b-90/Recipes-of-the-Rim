@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+<!-- Flamebow -->
+	<RecipeDef>
+		<defName>chrisb_craft_Flamebow</defName>
+		<label>make flamebow</label>
+		<description>Make a Flamebow.</description>
+		<displayPriority>511</displayPriority>
+		<workAmount>4200</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+      <li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<Flamebow>1</Flamebow>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>RecurveBow</researchPrerequisite>
+	</RecipeDef>
+
 <!-- Deathrest Capacity Serum -->
 	<RecipeDef>
 		<defName>chrisb_Craft_DeathrestCapacitySerum</defName>
