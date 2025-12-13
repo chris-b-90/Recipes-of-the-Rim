@@ -5,7 +5,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_ShuttleEngine</defName>
 		<label>make shuttle engine</label>
-		<description>Make a Shuttle Engine.</description>
+		<description>Make Shuttle Engine.</description>
+    <jobString>Making Shuttle Engine.</jobString>
 		<displayPriority>537</displayPriority>
 		<workAmount>72000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>

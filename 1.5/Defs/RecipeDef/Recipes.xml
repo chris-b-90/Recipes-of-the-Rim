@@ -6,6 +6,7 @@
 		<defName>chrisb_Craft_Plasteel</defName>
 		<label>make plasteel</label>
 		<description>Make Plasteel.</description>
+    <jobString>Making Plasteel.</jobString>
 		<displayPriority>2</displayPriority>
 		<workAmount>9000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -55,6 +56,7 @@
 		<defName>chrisb_Craft_Synthread</defName>
 		<label>spin synthread</label>
 		<description>Spin Synthread.</description>
+    <jobString>Spinning Synthread.</jobString>
 		<displayPriority>1</displayPriority>
 		<workAmount>7500</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -106,6 +108,7 @@
 		<defName>chrisb_Craft_Hyperweave</defName>
 		<label>spin hyperweave</label>
 		<description>Spin Hyperweave.</description>
+    <jobString>Spinning Hyperweave.</jobString>
 		<displayPriority>2</displayPriority>
 		<workAmount>12000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -157,6 +160,7 @@
 		<defName>chrisb_Craft_Neutroamine</defName>
 		<label>synthesize neutroamine</label>
 		<description>Synthesize Neutroamine.</description>
+    <jobString>Synthesizing Neutroamine.</jobString>
 		<displayPriority>1798</displayPriority>
 		<workAmount>2400</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -198,6 +202,7 @@
 		<defName>chrisb_Craft_Neutroamine4</defName>
 		<label>synthesize neutroamine x4</label>
 		<description>Synthesise Neutroamine x4.</description>
+    <jobString>Synthesizing 4 Neutroamine.</jobString>
 		<displayPriority>1799</displayPriority>
 		<workAmount>9600</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -239,6 +244,7 @@
 		<defName>chrisb_Craft_GlitterworldMedicine</defName>
 		<label>make glitterworld medicine</label>
 		<description>Make Glitterworld Medicine.</description>
+    <jobString>Making Glitterworld Medicine.</jobString>
 		<displayPriority>2004</displayPriority>
 		<workAmount>3000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -297,6 +303,7 @@
 		<defName>chrisb_Craft_GlitterworldMedicine4</defName>
 		<label>make glitterworld medicine x4</label>
 		<description>Make Glitterworld Medicine x4.</description>
+    <jobString>Making 4 Glitterworld Medicine.</jobString>
 		<displayPriority>2005</displayPriority>
 		<workAmount>12000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -355,6 +362,7 @@
 		<defName>chrisb_Craft_Luciferium</defName>
 		<label>make luciferium</label>
 		<description>Make Luciferium.</description>
+    <jobString>Making Luciferium.</jobString>
 		<displayPriority>2104</displayPriority>
 		<workAmount>12000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -413,6 +421,7 @@
 		<defName>chrisb_Craft_MechSerumHealer</defName>
 		<label>make healer mech serum</label>
 		<description>Make Healer Mech Serum.</description>
+    <jobString>Making Healer Mech Serum.</jobString>
 		<displayPriority>2105</displayPriority>
 		<workAmount>60000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -480,6 +489,7 @@
 		<defName>chrisb_Craft_MechSerumResurrector</defName>
 		<label>make resurrector mech serum</label>
 		<description>Make Resurrector Mech Serum.</description>
+    <jobString>Making Resurrector Mech Serum.</jobString>
 		<displayPriority>2106</displayPriority>
 		<workAmount>75000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -546,7 +556,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_Antigrain_Shell</defName>
 		<label>make antigrain shell</label>
-		<description>Make an Antigrain Shell.</description>
+		<description>Make Antigrain Shell.</description>
+    <jobString>Making Antigrain Shell.</jobString>
 		<displayPriority>121</displayPriority>
 		<workAmount>60000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -612,7 +623,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_ReinforcedBarrel</defName>
 		<label>make reinforced barrel</label>
-		<description>Make an Antigrain Shell.</description>
+		<description>Make Reinforced Barrel.</description>
+    <jobString>Making Reinforced Barrel.</jobString>
 		<displayPriority>122</displayPriority>
 		<workAmount>18000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -662,7 +674,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_Apparel_PsychicShockLance</defName>
 		<label>make psychic shock lance</label>
-		<description>Make a Psychic Shock Lance.</description>
+		<description>Make Psychic Shock Lance.</description>
+    <jobString>Making Psychic Shock Lance.</jobString>
 		<displayPriority>198</displayPriority>
 		<workAmount>24000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -712,7 +725,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_Apparel_PsychicInsanityLance</defName>
 		<label>make psychic insanity lance</label>
-		<description>Make a Psychic Insanity Lance.</description>
+		<description>Make Psychic Insanity Lance.</description>
+    <jobString>Making Psychic Insanity Lance.</jobString>
 		<displayPriority>199</displayPriority>
 		<workAmount>24000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -762,7 +776,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_PsychicAnimalPulser</defName>
 		<label>make psychic animal pulser</label>
-		<description>Make a Psychic Animal Pulser.</description>
+		<description>Make Psychic Animal Pulser.</description>
+    <jobString>Making Psychic Animal Pulser.</jobString>
 		<displayPriority>196</displayPriority>
 		<workAmount>15000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -812,7 +827,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_PsychicSoothePulser</defName>
 		<label>make psychic soothe pulser</label>
-		<description>Make a Psychic Soothe Pulser.</description>
+		<description>Make Psychic Soothe Pulser.</description>
+    <jobString>Making Psychic Soothe Pulser.</jobString>
 		<displayPriority>197</displayPriority>
 		<workAmount>15000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -862,7 +878,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_Apparel_PsychicFoilHelmet</defName>
 		<label>make psychic foil helmet</label>
-		<description>Make a Psychic Foil Helmet.</description>
+		<description>Make Psychic Foil Helmet.</description>
+    <jobString>Making Psychic Foil Helmet.</jobString>
 		<displayPriority>99</displayPriority>
 		<workAmount>15000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -905,7 +922,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_AIPersonaCore</defName>
 		<label>make AI persona core</label>
-		<description>Make an AI Persona Core.</description>
+		<description>Make AI Persona Core.</description>
+    <jobString>Making AI Persona Core.</jobString>
 		<displayPriority>182</displayPriority>
 		<workAmount>90000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -947,7 +965,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_TechprofSubpersonaCore</defName>
 		<label>make techprof subpersona core</label>
-		<description>Make a techprof Subpersona Core.</description>
+		<description>Make techprof Subpersona Core.</description>
+    <jobString>Making techprof Subpersona Core.</jobString>
 		<displayPriority>182</displayPriority>
 		<workAmount>90000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>

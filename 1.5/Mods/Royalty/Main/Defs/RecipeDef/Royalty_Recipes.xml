@@ -5,7 +5,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_BroadshieldCore</defName>
 		<label>make shield core</label>
-		<description>Make a Shield Core.</description>
+		<description>Make Shield Core.</description>
+    <jobString>Making Shield Core.</jobString>
 		<displayPriority>181</displayPriority>
 		<workAmount>26000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -48,7 +49,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_PsychicAmplifier</defName>
 		<label>make psylink neuroformer</label>
-		<description>Make a Psylink Neuroformer.</description>
+		<description>Make Psylink Neuroformer.</description>
+    <jobString>Making Psylink Neuroformer.</jobString>
 		<displayPriority>182</displayPriority>
 		<workAmount>66000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -98,7 +100,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_MeleeWeapon_MonoSword</defName>
 		<label>make monosword</label>
-		<description>Make a Monosword.</description>
+		<description>Make Monosword.</description>
+    <jobString>Making Monosword.</jobString>
 		<displayPriority>183</displayPriority>
 		<workAmount>60000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -148,7 +151,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_MeleeWeapon_PlasmaSword</defName>
 		<label>make plasmasword</label>
-		<description>Make a Plasmasword.</description>
+		<description>Make Plasmasword.</description>
+    <jobString>Making Plasmasword.</jobString>
 		<displayPriority>184</displayPriority>
 		<workAmount>60000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -198,7 +202,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_MeleeWeapon_Zeushammer</defName>
 		<label>make zeushammer</label>
-		<description>Make a Zeushammer.</description>
+		<description>Make Zeushammer.</description>
+    <jobString>Making Zeushammer.</jobString>
 		<displayPriority>185</displayPriority>
 		<workAmount>60000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -248,7 +253,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_MeleeWeapon_MonoSwordBladelink</defName>
 		<label>make persona monosword</label>
-		<description>Make a Persona Monosword.</description>
+		<description>Make Persona Monosword.</description>
+    <jobString>Making Persona Monosword.</jobString>
 		<displayPriority>186</displayPriority>
 		<workAmount>75000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -314,7 +320,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_MeleeWeapon_PlasmaSwordBladelink</defName>
 		<label>make persona plasmasword</label>
-		<description>Make a Persona Plasmasword.</description>
+		<description>Make Persona Plasmasword.</description>
+    <jobString>Making Persona Plasmasword.</jobString>
 		<displayPriority>187</displayPriority>
 		<workAmount>75000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -380,7 +387,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_MeleeWeapon_ZeusHammerBladelink</defName>
 		<label>make persona zeushammer</label>
-		<description>Make a Persona Zeushammer.</description>
+		<description>Make Persona Zeushammer.</description>
+    <jobString>Making Persona Zeushammer.</jobString>
 		<displayPriority>188</displayPriority>
 		<workAmount>75000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>

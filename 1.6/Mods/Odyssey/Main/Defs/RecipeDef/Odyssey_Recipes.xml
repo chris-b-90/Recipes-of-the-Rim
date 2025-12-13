@@ -5,7 +5,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_SentienceCatalyst</defName>
 		<label>make sentience catalyst</label>
-		<description>Make a Sentience Catalyst.</description>
+		<description>Make Sentience Catalyst.</description>
+    <jobString>Making Sentience Catalyst.</jobString>
 		<displayPriority>194</displayPriority>
 		<workAmount>36000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>

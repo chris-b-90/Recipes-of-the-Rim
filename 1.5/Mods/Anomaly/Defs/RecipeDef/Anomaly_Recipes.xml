@@ -6,6 +6,7 @@
 		<defName>chrisb_Craft_Shard</defName>
 		<label>make shard</label>
 		<description>Make Shard.</description>
+    <jobString>Making Shard.</jobString>
 		<displayPriority>195</displayPriority>
 		<workAmount>60000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>

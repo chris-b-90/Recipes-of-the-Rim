@@ -5,7 +5,8 @@
 	<RecipeDef>
 		<defName>chrisb_craft_Flamebow</defName>
 		<label>make flamebow</label>
-		<description>Make a Flamebow.</description>
+		<description>Make Flamebow.</description>
+    <jobString>Making Flamebow.</jobString>
 		<displayPriority>511</displayPriority>
 		<workAmount>4200</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -49,7 +50,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_DeathrestCapacitySerum</defName>
 		<label>make deathrest capacity serum</label>
-		<description>Make a Deathrest Capacity Serum.</description>
+		<description>Make Deathrest Capacity Serum.</description>
+    <jobString>Making Deathrest Capacity Serum.</jobString>
 		<displayPriority>194</displayPriority>
 		<workAmount>36000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -98,7 +100,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_ArchiteCapsule</defName>
 		<label>make archite capsule</label>
-		<description>Make an Archite Capsule.</description>
+		<description>Make Archite Capsule.</description>
+    <jobString>Making Archite Capsule.</jobString>
 		<displayPriority>194</displayPriority>
 		<workAmount>36000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>

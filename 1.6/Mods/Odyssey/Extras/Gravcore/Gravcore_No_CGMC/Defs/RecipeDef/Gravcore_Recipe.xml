@@ -5,7 +5,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_Gravcore</defName>
 		<label>make gravcore</label>
-		<description>Make a Gravcore.</description>
+		<description>Make Gravcore.</description>
+    <jobString>Making Gravcore.</jobString>
 		<displayPriority>538</displayPriority>
 		<workAmount>72000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>

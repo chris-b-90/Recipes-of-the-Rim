@@ -5,7 +5,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_Apparel_PsyfocusRobe</defName>
 		<label>make psyfocus robe</label>
-		<description>Make a Psyfocus Robe.</description>
+		<description>Make Psyfocus Robe.</description>
+    <jobString>Making Psyfocus Robe.</jobString>
 		<displayPriority>246</displayPriority>
 		<workAmount>45000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -57,6 +58,7 @@
 		<defName>chrisb_Craft_Apparel_PsyfocusVest</defName>
 		<label>make psyfocus vest</label>
 		<description>Make a Psyfocus Vest.</description>
+    <jobString>Making Psyfocus Vest.</jobString>
 		<displayPriority>247</displayPriority>
 		<workAmount>36000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -107,7 +109,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_Apparel_PsyfocusShirt</defName>
 		<label>make psyfocus shirt</label>
-		<description>Make a Psyfocus Shirt.</description>
+		<description>Make Psyfocus Shirt.</description>
+    <jobString>Making Psyfocus Shirt.</jobString>
 		<displayPriority>248</displayPriority>
 		<workAmount>24000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -158,7 +161,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_Apparel_EltexSkullcap</defName>
 		<label>make eltex skullcap</label>
-		<description>Make an Eltex Skullcap.</description>
+		<description>Make Eltex Skullcap.</description>
+    <jobString>Making Eltex Skullcap.</jobString>
 		<displayPriority>249</displayPriority>
 		<workAmount>15000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -201,7 +205,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_Apparel_PsyfocusHelmet</defName>
 		<label>make psyfocus helmet</label>
-		<description>Make a Psyfocus Helmet.</description>
+		<description>Make Psyfocus Helmet.</description>
+    <jobString>Making Psyfocus Helmet.</jobString>
 		<displayPriority>250</displayPriority>
 		<workAmount>45000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -252,7 +257,8 @@
 	<RecipeDef>
 		<defName>chrisb_Craft_MeleeWeapon_PsyfocusStaff</defName>
 		<label>make psyfocus staff</label>
-		<description>Make a Psyfocus Staff.</description>
+		<description>Make Psyfocus Staff.</description>
+    <jobString>Making Psyfocus Staff.</jobString>
 		<displayPriority>231</displayPriority>
 		<workAmount>45000</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
