@@ -164,7 +164,7 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>AdvancedFabrication</li>
+      <li>Fabrication</li>
 			<li>Mortars</li>
     </prerequisites>
 		<tab>chrisb_Universal_Crafting</tab>
