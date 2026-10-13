@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RocketswarmLauncher"]/label</xpath>
+		<value>
+			<label>Rocket launchers</label>
+		</value>
+	</Operation>
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RocketswarmLauncher"]/description</xpath>
+		<value>
+			<description>Produce mobile and fixed-position emergency-defense rocket launchers, which can devastate a wide area at a key moment in battle.</description>
+		</value>
+	</Operation>
+</Patch>

@@ -35,4 +35,27 @@
 		<li IfModNotActive="oskarpotocki.vanillavehiclesexpanded" IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods/Odyssey/Extras/ShuttleEngine/ShuttleEngine_No_VVE</li>
 
   </v1.6>
+
+  <v1.7>
+
+		<li>/</li>
+		<li>1.7</li>
+
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.7/Mods/Royalty/Main</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.7/Mods/Biotech/Main</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">1.7/Mods/Anomaly</li>
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.7/Mods/Odyssey/Main</li>
+
+		<li IfModNotActive="vanillaexpanded.vpsycastse" IfModActive="Ludeon.RimWorld.Royalty">1.7/Mods/Royalty/Extras/EltexGear</li>
+
+    <li IfModNotActive="ceteam.combatextended" IfModActive="Ludeon.RimWorld.Biotech">1.7/Mods/Biotech/Extras/No_CE</li>
+
+		<li IfModActiveAll="chrisb.craftablegravcoremechhips,Ludeon.RimWorld.Odyssey">1.7/Mods/Odyssey/Extras/Gravcore/Gravcore_CGMC/Gravcore</li>
+		<li IfModNotActive="chrisb.craftablegravcoremechhips" IfModActive="Ludeon.RimWorld.Odyssey">1.7/Mods/Odyssey/Extras/Gravcore/Gravcore_No_CGMC</li>
+		<li IfModActiveAll="chrisb.craftablegravcoremechhips,Ludeon.RimWorld.Odyssey,Ludeon.RimWorld.Biotech">1.7/Mods/Odyssey/Extras/Gravcore/Gravcore_CGMC/Biotech</li>
+
+		<li IfModActiveAll="oskarpotocki.vanillavehiclesexpanded,Ludeon.RimWorld.Odyssey">1.7/Mods/Odyssey/Extras/ShuttleEngine/ShuttleEngine_VVE</li>
+		<li IfModNotActive="oskarpotocki.vanillavehiclesexpanded" IfModActive="Ludeon.RimWorld.Odyssey">1.7/Mods/Odyssey/Extras/ShuttleEngine/ShuttleEngine_No_VVE</li>
+
+  </v1.7>
 </loadFolders>

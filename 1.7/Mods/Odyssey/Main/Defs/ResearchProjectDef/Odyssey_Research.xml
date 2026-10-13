@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Sentience catalyst -->
+	<ResearchProjectDef>
+    <defName>chrisb_Research_SentienceCatalyst</defName>
+    <label>Sentience catalyst</label>
+    <description>Enables fabrication of sentience catalysts.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>4.90</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Research Deathrest capacity serum -->
+	<ResearchProjectDef>
+    <defName>chrisb_Research_DeathrestSerum</defName>
+    <label>Deathrest serum</label>
+    <description>Enables fabrication of deathrest capacity serum.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+			<li>Deathrest</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>3.50</researchViewY>
+  </ResearchProjectDef>
+
+<ResearchProjectDef ParentName="chrisb_TechprintCategory2">
+    <defName>chrisb_Research_ArchiteCapsule</defName>
+    <label>Archite capsule</label>
+    <description>Enables fabrication of archite capsules.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+			<li>Archogenetics</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>3.50</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

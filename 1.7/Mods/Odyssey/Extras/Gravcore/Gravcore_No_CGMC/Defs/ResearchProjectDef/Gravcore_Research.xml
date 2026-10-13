@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Gravcore -->
+	<ResearchProjectDef>
+    <defName>chrisb_Research_Gravcore</defName>
+    <label>Gravcore</label>
+    <description>Enables fabrication of gravcores.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+			<li>AdvancedGravtech</li>
+    </prerequisites>
+		<tab>chrisb_Universal_Crafting</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>4.90</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
